@@ -1,0 +1,21 @@
+@media print {
+  * {
+    color: grey;
+  }
+  body {
+    color: grey;
+  }
+  body img {
+    display: none;
+  }
+  header div:first-child img {
+    display: block;
+  }
+  footer h3,
+  p:last-child {
+    display: none;
+  }
+  footer p {
+    display: inline-block;
+  }
+}
