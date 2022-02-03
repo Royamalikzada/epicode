@@ -1,0 +1,167 @@
+body {
+  font-family: fira sans;
+}
+nav {
+  color: black;
+}
+.navbar-custom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.gotoend {
+  display: flex;
+  justify-content: end;
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 189, 254),
+    rgb(3, 82, 135)
+  );
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.fa-comment,
+.fa-location-arrow,
+.fa-users,
+.fa-check-circle {
+  color: red;
+  font-size: 2rem;
+}
+.checked {
+  display: flex;
+}
+.checked i {
+  margin-right: 1rem;
+}
+.container-cs h3 {
+  margin-top: 2rem;
+}
+
+#firstSection {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-size: normal;
+}
+.far fa-comment::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f55a";
+}
+.divcentrale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+/* #divcentrale p {
+  line-height: 0;
+} */
+
+.div-icon {
+  text-align: center;
+}
+#sectionBlue {
+  background-color: rgb(26, 26, 73);
+  color: white;
+  margin-bottom: 2rem;
+}
+#click {
+  display: inline;
+}
+footer {
+  text-align: start;
+}
+footer input {
+  width: 18rem;
+}
+#lastParagraph {
+  text-align: center;
+}
+#notebook {
+  width: 100%;
+}
+.main h1 {
+  text-align: center;
+  line-height: 2;
+}
+.main input {
+  width: 100%;
+}
+.input {
+  border: 1px solid #ccc;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+.card {
+  border: none;
+}
+article h1 {
+  text-align: center;
+}
+article img {
+  width: 100%;
+}
+.skewbox {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: skew(-10deg, 0);
+}
+.skewbox h5 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+#skew1 {
+  background-color: powderblue;
+}
+#skew2 {
+  background-color: tomato;
+}
+#skew3 {
+  background-color: rgba(255, 255, 0, 0.863);
+}
+.grigio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+  padding-left: 15%;
+  padding-bottom: 10%;
+  height: 30rem;
+}
+
+/* .grigio p:last-of-type {
+  padding-bottom: 15rem;
+}
+#paragraph {
+  padding-bottom: 14rem;
+} */
+
+@media screen and (min-width: 768px) {
+  #firstSection {
+    padding: 167px 30px;
+  }
+  #notebook {
+    width: auto;
+  }
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
+}
