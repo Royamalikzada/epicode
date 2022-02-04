@@ -151,7 +151,7 @@ article img {
     padding: 167px 30px;
   }
   #notebook {
-    width: auto;
+    /* width: auto; */
   }
   .navbar-collapse {
     display: flex;
