@@ -70,9 +70,6 @@ button {
   padding: 50px 0;
   margin: 0 auto;
 }
-/* #divcentrale p {
-  line-height: 0;
-} */
 
 .div-icon {
   text-align: center;
@@ -148,13 +145,6 @@ article img {
   padding-bottom: 10%;
   height: 30rem;
 }
-
-/* .grigio p:last-of-type {
-  padding-bottom: 15rem;
-}
-#paragraph {
-  padding-bottom: 14rem;
-} */
 
 @media screen and (min-width: 768px) {
   #firstSection {
