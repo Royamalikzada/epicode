@@ -36,6 +36,11 @@ button {
   color: red;
   font-size: 2rem;
 }
+.fa-twitter,
+.fa-linkedin,
+.fa-facebook {
+  font-size: 2rem;
+}
 .checked {
   display: flex;
 }
