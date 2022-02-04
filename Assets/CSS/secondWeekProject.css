@@ -15,10 +15,6 @@ nav {
   justify-content: center;
   align-items: end;
 }
-.gotoend {
-  display: flex;
-  justify-content: end;
-}
 button {
   background-image: linear-gradient(
     to right,
@@ -50,13 +46,11 @@ button {
 .container-cs h3 {
   margin-top: 2rem;
 }
-
 #firstSection {
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
-  font-size: normal;
 }
 .far fa-comment::before {
   font-family: "Font Awesome 5 Free";
@@ -70,10 +64,6 @@ button {
   padding: 50px 0;
   margin: 0 auto;
 }
-
-.div-icon {
-  text-align: center;
-}
 #sectionBlue {
   background-color: rgb(26, 26, 73);
   color: white;
@@ -82,37 +72,12 @@ button {
 #click {
   display: inline;
 }
-footer {
-  text-align: start;
-}
 footer input {
   width: 18rem;
-}
-#lastParagraph {
-  text-align: center;
-}
-#notebook {
-  width: 100%;
-}
-.main h1 {
-  text-align: center;
-  line-height: 2;
-}
-.main input {
-  width: 100%;
 }
 .input {
   border: 1px solid #ccc;
   padding: 0.5rem 0 0.5rem 1rem;
-}
-.card {
-  border: none;
-}
-article h1 {
-  text-align: center;
-}
-article img {
-  width: 100%;
 }
 .skewbox {
   padding-top: 5rem;
@@ -145,14 +110,11 @@ article img {
   padding-bottom: 10%;
   height: 30rem;
 }
-
 @media screen and (min-width: 768px) {
   #firstSection {
     padding: 167px 30px;
   }
-  #notebook {
-    /* width: auto; */
-  }
+
   .navbar-collapse {
     display: flex;
     flex-direction: row;
