@@ -13,7 +13,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
 }
 .gotoend {
   display: flex;
@@ -157,6 +157,6 @@ article img {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
+    align-items: baseline;
   }
 }
