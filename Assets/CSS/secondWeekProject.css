@@ -1,5 +1,6 @@
 body {
   font-family: fira sans;
+  font-size: 1.2rem;
 }
 nav {
   color: black;
@@ -61,7 +62,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0;
+  padding: 5rem 0;
   margin: 0 auto;
 }
 #sectionBlue {
